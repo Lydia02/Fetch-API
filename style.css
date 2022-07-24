@@ -1,0 +1,54 @@
+  *{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #fff, lightgreen);
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 50px;
+    padding: 10px;
+  
+}
+button:hover{
+    background: greenyellow;
+    cursor: pointer;
+}
+#title{
+    display: block;
+    width:30%;
+    height:40px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    display: block;
+    width:30%;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    height:80px;
+}
+input[type=submit] {
+    display: block;
+    width:10%;
+    height:40px;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
